@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Hospital_UN.Urinarios.DiagnosticosUrinariosPage">
+    <ContentPage.Content>
+        <StackLayout Orientation="Vertical" Padding="15" VerticalOptions="CenterAndExpand">
+            <Button Text="Cistitis" Clicked="OnCistitisClick" BackgroundColor="DodgerBlue"></Button>
+            <Button Text="Pielonefritis" Clicked="OnPielonefritisClick" BackgroundColor="DodgerBlue"></Button>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

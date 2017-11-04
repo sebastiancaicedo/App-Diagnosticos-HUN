@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Hospital_UN.Urinarios.Cistitis.CistitisNOPage">
+    <ContentPage.Content>
+        <StackLayout Orientation="Vertical" Padding=" 15">
+            <Label FontAttributes="Bold" FontSize="Large" TextColor="Black"
+                   Text="Tratamiento de cistitis sin sospecha de (BLEE):"></Label>
+            <StackLayout Orientation="Vertical" Margin="0,10,0,0">
+                <Label FontSize="Medium" TextColor="Black"
+                       Text="- Nitrofurantoina 100mg VO/6 horas por 7 días (no usar sí TFG menor que 50)"></Label>
+                <Label FontSize="Medium" TextColor="Black"
+                       Text="- Fosfomicina 3 gr VO dosis única"></Label>
+                <Label FontSize="Medium" TextColor="Black"
+                       Text="- Cefalexina 500 mg VO/6 horas por 5 días o cefuroxima 500 mg VO/12 horas (usar si no hay factores de riesgo para gpermenes resistentes)"></Label>
+            </StackLayout>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

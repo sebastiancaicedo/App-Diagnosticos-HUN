@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Hospital_UN.Urinarios.Cistitis.CistitisPage">
+    <ContentPage.Content>
+        <StackLayout Orientation="Vertical" Padding="15">
+            <Label FontSize="Large" TextColor="Black" Text="¿Su paciente tiene sospecha de Enterobacterias productoras de betalactamasas de espectro extendido (BLEE)?"></Label>
+            <StackLayout Orientation="Horizontal" HorizontalOptions="CenterAndExpand">
+                <Button Text="SI" BackgroundColor="DodgerBlue" Clicked="OnSIClick"></Button>
+                <Button Text="NO" BackgroundColor="DodgerBlue" Clicked="OnNOClick"></Button>
+            </StackLayout>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

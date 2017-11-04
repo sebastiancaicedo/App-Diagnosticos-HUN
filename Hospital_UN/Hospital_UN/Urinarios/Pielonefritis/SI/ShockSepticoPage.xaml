@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Hospital_UN.Urinarios.Pielonefritis.SI.ShockSepticoPage">
+    <ContentPage.Content>
+        <StackLayout Orientation="Vertical" Padding="15">
+            <StackLayout Orientation="Vertical">
+                <Label FontSize="Medium" TextColor="Black"
+                       Text="¿Tiene el paciente riesgo para shock séptico además de germen resistente?"></Label>
+                <StackLayout Orientation="Horizontal" HorizontalOptions="CenterAndExpand">
+                    <Button Text="SI" BackgroundColor="DodgerBlue" Clicked="OnSIClick"></Button>
+                    <Button Text="NO" BackgroundColor="DodgerBlue" Clicked="OnNOClick"></Button>
+                </StackLayout>
+            </StackLayout>
+            <StackLayout Orientation="Vertical" VerticalOptions="EndAndExpand">
+                <Button BackgroundColor="DodgerBlue" Text="¿Tiene el paciente sospecha de Enterococo?" Clicked="OnSospechaClick"></Button>
+            </StackLayout>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

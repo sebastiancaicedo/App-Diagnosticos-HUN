@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Hospital_UN.Urinarios.Pielonefritis.PielonefritisNOPage">
+    <ContentPage.Content>
+        <StackLayout Orientation="Vertical" Padding="15">
+            <Label FontSize="Medium" TextColor="Black"
+                   Text="- Dosis IV única intrahospitalaria (Ceftriaxona 2 gr IV/dia o amikacina 15 mg/kg IV/día), observación 6-24 horas seguida de tratamiento oral con cefuroxima 500-700 mg VO/12 horas o cefalexina 500 mg VO/6 horas"></Label>
+            <Label FontSize="Medium" TextColor="Black"
+                   Text="- Control a las 24 horas"></Label>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

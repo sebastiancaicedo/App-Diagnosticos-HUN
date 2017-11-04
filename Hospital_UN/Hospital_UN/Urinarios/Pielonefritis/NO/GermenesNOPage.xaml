@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Hospital_UN.Urinarios.Pielonefritis.NO.GermenesNOPage">
+    <ContentPage.Content>
+        <StackLayout Orientation="Vertical" Padding="15">
+            <Label FontAttributes="Bold" FontSize="Large" TextColor="Black"
+                   Text="Sin factores de riesgo para gérmenes resistentes:"></Label>
+            <StackLayout Orientation="Vertical" Margin="0,15,0,0">
+                <Label FontSize="Medium" TextColor="Black"
+                       Text="Cefazolina 2gr IV/8 horas o cefuroxima 750 mg IV/8 horas (+ amikacina 15 mg/kg IV/día si sepsis grave)"></Label>
+            </StackLayout>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

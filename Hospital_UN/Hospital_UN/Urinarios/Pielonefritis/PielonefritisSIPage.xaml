@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Hospital_UN.Urinarios.Pielonefritis.PielonefritisSIPage">
+    <ContentPage.Content>
+        <StackLayout Orientation="Vertical" Padding="15">
+            <Label FontAttributes="Bold" FontSize="Large" TextColor="Black"
+                   Text="Factores de Riesgo para germenes resistentes"></Label>
+            <StackLayout Orientation="Vertical" Margin="0,10,0,0">
+                <Label FontSize="Medium" TextColor="Black"
+                       Text="- Tratamiento antibiótico en los 90 días previos"></Label>
+                <Label FontSize="Medium" TextColor="Black"
+                       Text="- Manipulación urológica reciente"></Label>
+                <Label FontSize="Medium" TextColor="Black"
+                       Text="- Portador de sonda vesical"></Label>
+                <Label FontSize="Medium" TextColor="Black"
+                       Text="Adquisición de la infección en el hospital"></Label>
+                <Label FontSize="Medium" TextColor="Black"
+                       Text="Ancianos"></Label>
+                <Label FontSize="Medium" TextColor="Black"
+                       Text="Residencia en hogar geriatrico"></Label>
+                <Label FontSize="Medium" TextColor="Black" Margin="0,20,0,0"
+                       Text="¿El paciente cumple con alguno de los criterios para germenes resistentes?"></Label>
+                <StackLayout Orientation="Horizontal" HorizontalOptions="CenterAndExpand">
+                    <Button Text="SI" Clicked="OnSIClick" BackgroundColor="DodgerBlue"></Button>
+                    <Button Text="NO" Clicked="OnNOClick" BackgroundColor="DodgerBlue"></Button>
+                </StackLayout>
+            </StackLayout>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Hospital_UN.Cardiacos.EndocarditisNativaPage">
+    <ContentPage.Content>
+        <StackLayout Orientation="Vertical" Padding="15">
+            <Label FontAttributes="Bold" FontSize="Large" TextColor="Black"
+                   Text="Endocarditis de valvula nativa:"></Label>
+            <StackLayout Orientation="Vertical" Margin="0,10,0,0">
+                <Label FontSize="Medium" TextColor="Black"
+                       Text="Aguda:"></Label>
+                <StackLayout Orientation="Vertical">
+                    <Label FontSize="Medium" TextColor="Black"
+                           Text="- Oxacilina, 2gr/IV/4h + Gentamicina, 3 mg/kg/día IV dividido en dos o tres dosis"></Label>
+                    <Label FontSize="Medium" TextColor="Black"
+                           Text="- Ampicilina 2gr/IV/4h x 4-6 semanas"></Label>
+                </StackLayout>
+                <Label FontSize="Medium" TextColor="Black"
+                       Text="Subaguda:"></Label>
+                <StackLayout Orientation="Vertical">
+                    <Label FontSize="Medium" TextColor="Black"
+                           Text="- Ceftriaxona 2 gr/IV/12h + Ampicilina 2 gr/IV/4h + Gentamicina 3 mg/kg/día IV dividido en dos o tres dosis x 4-6 semaas"></Label>
+                </StackLayout>
+            </StackLayout>
+            <Label Margin="0,10,0,0" HorizontalTextAlignment="Center"
+                   Text="IMPORTANTE Considere adicionar vancomicina si sospecha de stapylococcus aureus matícilino o alergia a beta lactámicos"></Label>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
