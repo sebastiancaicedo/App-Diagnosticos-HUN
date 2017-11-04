@@ -7,7 +7,7 @@
             <Label FontAttributes="Bold" FontSize="Large" TextColor="Black"
                    Text="Endocarditis de valvula nativa:"></Label>
             <StackLayout Orientation="Vertical" Margin="0,10,0,0">
-                <Label FontSize="Medium" TextColor="Black"
+                <Label FontSize="Medium" TextColor="Black" FontAttributes="Bold"
                        Text="Aguda:"></Label>
                 <StackLayout Orientation="Vertical">
                     <Label FontSize="Medium" TextColor="Black"
@@ -15,7 +15,7 @@
                     <Label FontSize="Medium" TextColor="Black"
                            Text="- Ampicilina 2gr/IV/4h x 4-6 semanas"></Label>
                 </StackLayout>
-                <Label FontSize="Medium" TextColor="Black"
+                <Label FontSize="Medium" TextColor="Black" FontAttributes="Bold"
                        Text="Subaguda:"></Label>
                 <StackLayout Orientation="Vertical">
                     <Label FontSize="Medium" TextColor="Black"
@@ -23,7 +23,7 @@
                 </StackLayout>
             </StackLayout>
             <Label Margin="0,10,0,0" HorizontalTextAlignment="Center"
-                   Text="IMPORTANTE Considere adicionar vancomicina si sospecha de stapylococcus aureus matícilino o alergia a beta lactámicos"></Label>
+                   Text="IMPORTANTE Considere adicionar vancomicina si sospecha de Staphylococcus aureus meticilino o alergia a beta lactámicos"></Label>
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>
