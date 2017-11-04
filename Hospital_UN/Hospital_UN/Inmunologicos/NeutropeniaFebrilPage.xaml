@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Hospital_UN.Inmunologicos.NeutropeniaFebrilPage">
+    <ContentPage.Content>
+        <StackLayout Orientation="Vertical" Padding="15">
+            <Label FontAttributes="Bold" FontSize="Large" TextColor="Black"
+                   Text="Neutropenia Febril"></Label>
+            <StackLayout Orientation="Vertical" Margin="0,15,0,0">
+                <Label FontSize="Medium" TextColor="Black"
+                       Text="Cefepine 2gr/IV/8h o Meropenem 2gr/IV/8h ± Amikacina 20mg/kg/día IV"></Label>
+                <Label Margin="0,15,0,0" FontSize="Medium" TextColor="Black"
+                       Text="Añadir Amikacina en pacientes hematológicos y suspenderla a las 48-72 horas si el hemocultivo es negativo."></Label>
+            </StackLayout>
+            <Label Margin="0,10,0,0" HorizontalTextAlignment="Center"
+                   Text="IMPORTANTE"></Label>
+            <Label HorizontalTextAlignment="Center"
+                   Text="Alto riesgo: Precisa ingreso hospitalario y tratamiento antimicrobiano parental. Adultos:Indice de riesgo MASSC menor que 21 o cualquiera de los siguientes: neutropenia esperada menor que 500/mm3 durante mas de 7 días o comorbilidad o disfunción renal o hepatica"></Label>
+            <Label Margin="0,15,0,0" HorizontalTextAlignment="Center"
+                   Text="Haga uso de vancomicina si: debuta con choque o sepsis grave, hemocultivo positivo para cocos gram positivos."></Label>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

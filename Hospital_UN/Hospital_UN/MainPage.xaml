@@ -8,6 +8,7 @@
         <StackLayout Orientation="Vertical" Padding="15" VerticalOptions="CenterAndExpand">
             <Button Text="Diagnostico Urinarios" Clicked="OnDiagnosticosUrinariosClick" BackgroundColor= "DodgerBlue"></Button>
             <Button Text="Diagnosticos Cardiacos" Clicked="OnDiagnosticosCardiacosClick" BackgroundColor="DodgerBlue"></Button>
+            <Button Text="Diagnosticos Imunológicos" Clicked="OnDiagnosticosInmunologicosClick" BackgroundColor="DodgerBlue"></Button>
         </StackLayout>
     </ContentPage.Content>
 

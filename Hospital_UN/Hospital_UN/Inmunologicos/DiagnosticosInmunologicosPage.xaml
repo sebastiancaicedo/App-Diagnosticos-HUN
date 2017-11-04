@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Hospital_UN.Inmunologicos.DiagnosticosInmunologicosPage">
+    <ContentPage.Content>
+        <StackLayout Orientation="Vertical" Padding="15">
+            <Button Text="Neutropenia febril" BackgroundColor="DodgerBlue" Margin="0,30,0,0"
+                    Clicked="OnNeutropeniaClick"></Button>
+            <Label Margin="0,25,0,0" HorizontalTextAlignment="Center"
+                   Text="IMPORTANTE: Aumento de la predisposición a enfermedades infecciosas:"></Label>
+            <StackLayout Orientation="Vertical" Margin="0,10,0,0">
+                <Label Text="- Severa: menor que 500 neutrófilos/mm3 (0.5x10e9/1)"></Label>
+                <Label Text="- Moderado: menor que 1000 neutrófilos/mm3 (0.1x10e9/1)"></Label>
+                <Label Text="- Y predecible rápido descenso en las siguientes 24-48 h."></Label>
+            </StackLayout>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

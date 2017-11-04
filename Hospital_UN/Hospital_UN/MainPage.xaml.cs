@@ -27,5 +27,10 @@ namespace Hospital_UN
             Navigation.PushAsync(new Cardiacos.DiagnosticosCardiacosPage());
         }
 
+        public void OnDiagnosticosInmunologicosClick(object sender, EventArgs e)
+        {
+            Navigation.PushAsync(new Inmunologicos.DiagnosticosInmunologicosPage());
+        }
+
     }
 }
